@@ -84,7 +84,7 @@ A localidade das controllers é padrão: App\Http\Controllers
 
 <hr>
 
-## PSR-PEC-2 :: MODELS
+## PSR-PEC-3 :: MODELS
 
 Para desenvolvimento das models utilizamos comumente os comandos:
 ```
@@ -94,7 +94,7 @@ A localização das models é padrão do Larave 8: App\Models
 
 <hr>
 
-## PSR-PEC-2 :: RESOURCE
+## PSR-PEC-4 :: RESOURCE
 
  - **VIEWs:** Será criado um diretório com o mesmo nome do recurso. Dentro dele a chamada das blades. Por exemplo:
 
@@ -111,3 +111,12 @@ recurso-nome_da_rota.blade.php
 - **Recurso:** user
 - **Rota:** new/user
 - **Nome da blade:** view/user/user-new.blade.php
+
+<hr>
+
+## PSR-PEC-5 :: DATA BASE
+
+O banco de dados deverá ser descentralizado da aplicação sendo disponibilizado para versão o seu modelo de relacionamento.
+A versão usada do banco de dados deverá ser referenciada no arquivo app/config/database.php.
+
+O modelo de relacionamento, migração, dump, e demais operações poderá ser feito com uma ferramenta à parte como o [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
