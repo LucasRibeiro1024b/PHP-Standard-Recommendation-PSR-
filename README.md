@@ -65,7 +65,10 @@ Route::group(['middleware' => ['auth']], function () {
 ```
 Route::get('view/users','UserController@readUser')->name('user.get.view');
 ```
-
+ou laravel 8
+```
+Route::get('view/users',[UserController::class,'readUser'])->name('user.get.view');
+```
 <hr>
 
 ## PSR-PEC-2 :: CONTROLLERS
