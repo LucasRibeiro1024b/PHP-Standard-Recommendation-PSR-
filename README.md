@@ -113,7 +113,7 @@ recurso-nome_da_rota.blade.php
 
 - **Recurso:** user
 - **Rota:** new/user
-- **Nome da blade:** view/user/user-new.blade.php
+- **Nome da blade:** new/user/user-new.blade.php
 
 <hr>
 
