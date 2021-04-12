@@ -119,9 +119,15 @@ recurso-nome_da_rota.blade.php
 
 ## PSR-PEC-5 :: DATA BASE
 
+Banco de dados escrito na lingua inglesa.
+
 O banco de dados deverá ser descentralizado da aplicação sendo disponibilizado para versão o seu modelo de relacionamento.
 A versão usada do banco de dados deverá ser referenciada no arquivo app/config/database.php.
 
 O modelo de relacionamento, migração, dump, e demais operações poderá ser feito com uma ferramenta à parte como o [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
-
 O modelo gerado por este software será mantido em um repositório à parte do projeto em desenvolvimento. O repositório será fornecido pelo mantedor durante o projeto.
+
+
+## GERAL
+
+Para os demais recursos desenvolvidos permanece o PHP-FIG como referencia. Em especial a documentação das classes e recursos desenvolvidos com a linguagem: PSR-5.
