@@ -21,6 +21,10 @@ Para auxiliar a nomeação dos recursos de acordo com as PSRs, desenvolvemos a f
 
 - **Estilo:** Utilizaremos sempre o camelCase: **primeiraDefinicaoMinusculaSeguidaDeDemaisEmMaiusculo**
 
+- **Nome de classes:** StudlyCaps ou PascalCase;
+
+- **Nome de métodos:** camelCase
+
 <hr>
 
 ## PSR-PEC-2 :: ROTAS
