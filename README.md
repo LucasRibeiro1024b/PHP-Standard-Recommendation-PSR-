@@ -91,7 +91,7 @@ A localidade das controllers é padrão: App\Http\Controllers
 
 Para desenvolvimento das models utilizamos comumente os comandos:
 ```
-php artisan make:model nome_da_model
+php artisan make:model nome_da_modelModel
 ```
 A localização das models é padrão do Larave 8: App\Models
 
