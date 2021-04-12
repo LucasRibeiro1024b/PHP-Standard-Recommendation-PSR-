@@ -99,6 +99,9 @@ php artisan make:model nome_da_modelModel
 ```
 A localização das models é padrão do Larave 8: App\Models
 
+- Especifique nas modelos o nome da tabela;
+- Não use fillable;
+
 <hr>
 
 ## PSR-PEC-4 :: RESOURCE
