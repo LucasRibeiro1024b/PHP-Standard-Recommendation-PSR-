@@ -73,6 +73,8 @@ ou laravel 8
 ```
 Route::get('view/users',[UserController::class,'readUser'])->name('user.get.view');
 ```
+
+- **Não utilizar caminhos absolutos em chamadas de rotas. Usar sempre os nomes de cada uma**
 <hr>
 
 ## PSR-PEC-2 :: CONTROLLERS
