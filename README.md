@@ -137,6 +137,21 @@ O modelo de relacionamento, migração, dump, e demais operações poderá ser f
 O modelo gerado por este software será mantido em um repositório à parte do projeto em desenvolvimento. O repositório será fornecido pelo mantedor durante o projeto.
 
 
+## PSR-PEC-6 :: REPOSITÓRIO
+
+O repositório utilizado é o gitlab.
+A nome dos comites seguem a issue que foi definida ao colaborador seguida do termo referencia e do que tem sido feito. Exemplo:
+
+Termo referencia:
+
+1. work - desenvolvimento
+2. rwork - retrabalho
+3. bugfix - acerto de bugs
+
+> git commit -m "#1 - work: cadastro de usuario, atualização de nomes de empresas."
+> git commit -m "#1 - rwork: cadastro de empresa, nomes para rotas"
+> git commit -m "#1 - bugfix: cadastro de usuario"
+
 ## GERAL
 
 Para os demais recursos desenvolvidos permanece o PHP-FIG como referencia. Em especial a documentação das classes e recursos desenvolvidos com a linguagem: PSR-5.
