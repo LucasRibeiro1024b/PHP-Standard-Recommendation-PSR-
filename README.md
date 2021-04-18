@@ -148,9 +148,9 @@ Termo referencia:
 2. rwork - retrabalho
 3. bugfix - acerto de bugs
 
-> git commit -m "#1 - work: cadastro de usuario, atualização de nomes de empresas."
-> git commit -m "#1 - rwork: cadastro de empresa, nomes para rotas"
-> git commit -m "#1 - bugfix: cadastro de usuario"
+> git commit -m "#1 - work: cadastro de usuario, atualização de nomes de empresas." <br>
+> git commit -m "#1 - rwork: cadastro de empresa, nomes para rotas" <br>
+> git commit -m "#1 - bugfix: cadastro de usuario"<br>
 
 ## GERAL
 
