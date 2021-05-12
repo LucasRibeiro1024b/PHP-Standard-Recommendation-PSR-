@@ -170,6 +170,14 @@ Termo referencia:
 > git commit -m "#1 - rwork: cadastro de empresa, nomes para rotas" <br>
 > git commit -m "#1 - bugfix: cadastro de usuario"<br>
 
+## PSR-PEC-7 :: FLUXOGRAMAS
+
+Os fluxogramas ajudam a entender melhor o processo de cada etapa realizada pelo candidato.
+Acesse o link para ler o diagrama de cada um.
+
+[Fluxogramas](https://gitlab.com/Agency777/pec-psr/-/wikis/home "Fluxograma")
+
+
 ## GERAL
 
 Para os demais recursos desenvolvidos permanece o PHP-FIG como referencia. Em especial a documentação das classes e recursos desenvolvidos com a linguagem: PSR-5.
