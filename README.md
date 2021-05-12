@@ -149,7 +149,7 @@ Por exemplo:
 > git branch **#issue9**
 
 Para entrar no seu branch e começar a desenvolver, faça:
-> git checkout **$issue9**
+> git checkout **#issue9**
 
 Para verificar que branch você esta faça:
 > git branch
