@@ -140,7 +140,25 @@ O modelo gerado por este software será mantido em um repositório à parte do p
 ## PSR-PEC-6 :: REPOSITÓRIO
 
 O repositório utilizado é o gitlab.
-A nome dos comites seguem a issue que foi definida ao colaborador seguida do termo referencia e do que tem sido feito. Exemplo:
+
+Primeiro, defina o seu branch para iniciar o trabalho.
+
+Para criar o branch use:
+**git branch #issue<Numero da sua issue>**. 
+Por exemplo:
+> git branch **#issue9**
+
+Para entrar no seu branch e começar a desenvolver, faça:
+> git checkout **$issue9**
+
+Para verificar que branch você esta faça:
+> git branch
+
+Será listados todos os branches. Na lista, o branch que você esta é definido por *
+
+
+
+O nome dos comites seguem a issue que foi definida ao colaborador seguida do termo referencia e do que tem sido feito. Exemplo:
 
 Termo referencia:
 
